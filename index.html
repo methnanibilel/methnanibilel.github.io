@@ -1,475 +1,802 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bilel Methnani | Full-Stack Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Bilel Methnani — Full-Stack Developer & Odoo Consultant</title>
+    <meta name="description" content="Full-Stack Developer and Odoo Technical Consultant specializing in enterprise ERP solutions, Angular, Flutter, and scalable web applications.">
+    <meta name="keywords" content="Bilel Methnani, Odoo Developer, Full Stack Developer, Angular, Flutter, Tunisia">
+    <meta property="og:title" content="Bilel Methnani — Full-Stack Developer & Odoo Consultant">
+    <meta property="og:description" content="Crafting robust enterprise solutions with Odoo, Angular & Flutter.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
 <body>
-    <nav id="navbar">
-        <div class="nav-content">
-            <a href="#" class="logo">BM</a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="mobile-menu-btn" id="mobileMenuBtn">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
-    </nav>
 
-    <section class="hero" id="hero">
-        <div class="hero-bg"></div>
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <div class="hero-badge">
-                        <span class="dot"></span>
-                        Available for work
-                    </div>
-                    <h1>Hi, I'm <span class="highlight">Bilel Methnani</span></h1>
-                    <div class="hero-badges">
-                        <span class="hero-badge-item"><i class="fas fa-cube"></i> Odoo</span>
-                        <span class="hero-badge-item"><i class="fab fa-angular"></i> Angular</span>
-                        <span class="hero-badge-item"><i class="fab fa-flutter"></i> Flutter</span>
-                        <span class="hero-badge-item"><i class="fas fa-shopping-bag"></i> E-Commerce</span>
-                    </div>
-                    <p class="hero-subtitle">Full-Stack Developer & Odoo Technical Consultant crafting robust, scalable solutions that drive business growth and deliver exceptional user experiences.</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">
-                            <i class="fas fa-envelope"></i>
-                            Get in Touch
-                        </a>
-                        <a href="#projects" class="btn btn-secondary">
-                            <i class="fas fa-folder-open"></i>
-                            View Projects
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="profile-container">
-                        <div class="profile-ring"></div>
-                        <img src="https://lh3.googleusercontent.com/a/ACg8ocLYLvo-VS0vuwzozGEDod67iOp3UVXqmQe4Y0p0U-bNcX6DSpk=s288-c-no" alt="Bilel Methnani" class="profile-image">
-                        <div class="floating-badge odoo">
-                            <i class="fas fa-cube"></i>
-                            <span>Odoo</span>
-                        </div>
-                        <div class="floating-badge angular">
-                            <i class="fab fa-angular"></i>
-                            <span>Angular</span>
-                        </div>
-                        <div class="floating-badge flutter">
-                            <i class="fas fa-mobile-alt"></i>
-                            <span>Flutter</span>
-                        </div>
-                        <div class="floating-badge ecommerce">
-                            <i class="fas fa-shopping-bag"></i>
-                            <span>E-Commerce</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Aurora background -->
+<div class="aurora" aria-hidden="true">
+    <div class="aurora-blob b1"></div>
+    <div class="aurora-blob b2"></div>
+    <div class="aurora-blob b3"></div>
+    <div class="aurora-blob b4"></div>
+    <div class="aurora-blob b5"></div>
+</div>
 
-    <section class="section" id="about">
-        <div class="container">
-            <div class="section-header animate-on-scroll">
-                <span class="section-tag">// About Me</span>
-                <h2 class="section-title">Passionate About Building Excellence</h2>
-                <p class="section-subtitle">Transforming complex challenges into elegant, efficient solutions with cutting-edge technology.</p>
-            </div>
-            <div class="about-grid">
-                <div class="about-image animate-on-scroll">
-                    <div class="about-image-wrapper">
-                        <img src="https://lh3.googleusercontent.com/a/ACg8ocLYLvo-VS0vuwzozGEDod67iOp3UVXqmQe4Y0p0U-bNcX6DSpk=s288-c-no" alt="Bilel Methnani">
-                    </div>
-                    <div class="experience-badge">
-                        <div class="number">7+</div>
-                        <div class="text">Years Experience</div>
-                    </div>
-                </div>
-                <div class="about-content animate-on-scroll">
-                    <h3>Turning Vision Into Reality</h3>
-                    <p>I'm a dedicated Full-Stack Developer and Odoo Technical Consultant with expertise in building comprehensive enterprise solutions. My focus lies in creating seamless integrations, custom modules, and intuitive interfaces that empower businesses to operate more efficiently.</p>
-                    <p>With deep knowledge of Python, JavaScript, and modern frameworks, I specialize in developing robust Odoo implementations, RESTful APIs, and responsive web applications that scale with your business needs.</p>
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <i class="fas fa-code"></i>
-                            <div class="stat-value">50+</div>
-                            <div class="stat-label">Projects Completed</div>
-                        </div>
-                        <div class="stat-item">
-                            <i class="fas fa-users"></i>
-                            <div class="stat-value">20+</div>
-                            <div class="stat-label">Happy Clients</div>
-                        </div>
-                        <div class="stat-item">
-                            <i class="fas fa-award"></i>
-                            <div class="stat-value">15+</div>
-                            <div class="stat-label">Odoo Modules</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Custom cursor -->
+<div class="cursor-dot"    id="cursorDot"></div>
+<div class="cursor-circle" id="cursorCircle"></div>
 
-    <section class="section" id="skills" style="background: rgba(30, 41, 59, 0.5);">
-        <div class="container">
-            <div class="section-header animate-on-scroll">
-                <span class="section-tag">// Skills</span>
-                <h2 class="section-title">Technical Expertise</h2>
-                <p class="section-subtitle">A comprehensive toolkit for delivering high-quality, full-cycle software solutions.</p>
-            </div>
-            <div class="skills-container">
-                <div class="skill-category animate-on-scroll">
-                    <div class="skill-category-header">
-                        <div class="skill-category-icon">
-                            <i class="fas fa-cube"></i>
-                        </div>
-                        <h3 class="skill-category-title">Odoo Development</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Odoo 14-19</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">XML/CSV</span>
-                        <span class="skill-tag">ORM</span>
-                        <span class="skill-tag">QWeb Reports</span>
-                        <span class="skill-tag">Module Development</span>
-                        <span class="skill-tag">Migration</span>
-                    </div>
-                </div>
-                <div class="skill-category animate-on-scroll">
-                    <div class="skill-category-header">
-                        <div class="skill-category-icon">
-                            <i class="fas fa-server"></i>
-                        </div>
-                        <h3 class="skill-category-title">Backend</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Django</span>
-                        <span class="skill-tag">Laravel</span>
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">Express</span>
-                        <span class="skill-tag">REST API</span>
-                        <span class="skill-tag">.NET Core</span>
-                        <span class="skill-tag">PostgreSQL</span>
-                    </div>
-                </div>
-                <div class="skill-category animate-on-scroll">
-                    <div class="skill-category-header">
-                        <div class="skill-category-icon">
-                            <i class="fas fa-laptop-code"></i>
-                        </div>
-                        <h3 class="skill-category-title">Frontend</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Angular</span>
-                        <span class="skill-tag">Vue.js</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">TypeScript</span>
-                        <span class="skill-tag">HTML/CSS</span>
-                        <span class="skill-tag">Tailwind</span>
-                    </div>
-                </div>
-                <div class="skill-category animate-on-scroll">
-                    <div class="skill-category-header">
-                        <div class="skill-category-icon">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <h3 class="skill-category-title">Mobile Development</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Flutter</span>
-                        <span class="skill-tag">React Native</span>
-                        <span class="skill-tag">Dart</span>
-                        <span class="skill-tag">TypeScript</span>
-                        <span class="skill-tag">Firebase</span>
-                        <span class="skill-tag">REST API</span>
-                    </div>
-                </div>
-                <div class="skill-category animate-on-scroll">
-                    <div class="skill-category-header">
-                        <div class="skill-category-icon">
-                            <i class="fas fa-shopping-cart"></i>
-                        </div>
-                        <h3 class="skill-category-title">E-Commerce & CMS</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">WooCommerce</span>
-                        <span class="skill-tag">Magento</span>
-                        <span class="skill-tag">PrestaShop</span>
-                        <span class="skill-tag">WordPress</span>
-                        <span class="skill-tag">Shopify</span>
-                        <span class="skill-tag">Payment Integration</span>
-                    </div>
-                </div>
-                <div class="skill-category animate-on-scroll">
-                    <div class="skill-category-header">
-                        <div class="skill-category-icon">
-                            <i class="fas fa-database"></i>
-                        </div>
-                        <h3 class="skill-category-title">Database & DevOps</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">PostgreSQL</span>
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">SQL Server</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Linux</span>
-                        <span class="skill-tag">CI/CD</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- ══════════════════ NAVBAR ══════════════════ -->
+<nav id="navbar">
+    <div class="nav-content container">
+        <a href="#" class="logo">BM.</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact" class="nav-cta"><i class="fas fa-envelope"></i> Hire Me</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <i class="fas fa-sun" id="themeIcon"></i>
+        </button>
+        <button class="mobile-menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
 
-    <section class="section" id="projects">
-        <div class="container">
-            <div class="section-header animate-on-scroll">
-                <span class="section-tag">// Projects</span>
-                <h2 class="section-title">Featured Work</h2>
-                <p class="section-subtitle">A selection of projects showcasing my expertise in enterprise solutions and modern web development.</p>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card animate-on-scroll">
-                    <div class="project-image" style="background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);">
-                        <i class="fas fa-building"></i>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="project-tag">Odoo</span>
-                            <span class="project-tag">Python</span>
-                            <span class="project-tag">ERP</span>
-                        </div>
-                        <h3 class="project-title">Real Estate Management System</h3>
-                        <p class="project-description">Comprehensive Odoo module for property management, tenant tracking, lease management, and automated rent collection with payment gateway integration.</p>
-                    </div>
-                </div>
-                <div class="project-card animate-on-scroll">
-                    <div class="project-image" style="background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);">
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="project-tag">Angular</span>
-                            <span class="project-tag">Node.js</span>
-                            <span class="project-tag">MongoDB</span>
-                        </div>
-                        <h3 class="project-title">E-Commerce Platform</h3>
-                        <p class="project-description">Full-featured e-commerce solution with product management, cart functionality, secure payment processing, and real-time inventory tracking.</p>
-                    </div>
-                </div>
-                <div class="project-card animate-on-scroll">
-                    <div class="project-image" style="background: linear-gradient(135deg, #ec4899 0%, #f43f5e 100%);">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="project-tag">Odoo</span>
-                            <span class="project-tag">Analytics</span>
-                            <span class="project-tag">Dashboard</span>
-                        </div>
-                        <h3 class="project-title">Business Analytics Dashboard</h3>
-                        <p class="project-description">Custom Odoo module with advanced reporting, KPI tracking, and visual analytics dashboards for data-driven decision making.</p>
-                    </div>
-                </div>
-                <div class="project-card animate-on-scroll">
-                    <div class="project-image" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
-                        <i class="fas fa-file-invoice"></i>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="project-tag">Flutter</span>
-                            <span class="project-tag">Odoo</span>
-                            <span class="project-tag">Mobile</span>
-                        </div>
-                        <h3 class="project-title">DevisManager Mobile Application</h3>
-                        <p class="project-description">Optimize your quotes with ease and synchronize with your ERP in real time.</p>
-                    </div>
-                </div>
-                <div class="project-card animate-on-scroll">
-                    <div class="project-image" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">
-                        <i class="fas fa-utensils"></i>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="project-tag">Odoo</span>
-                            <span class="project-tag">Manufacturing</span>
-                            <span class="project-tag">Inventory</span>
-                        </div>
-                        <h3 class="project-title">Canning & Freezing Workshop</h3>
-                        <p class="project-description">Custom Odoo module for managing a canning and freezing workshop with production tracking, batch management, and quality control.</p>
-                    </div>
-                </div>
-                <div class="project-card animate-on-scroll">
-                    <div class="project-image" style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);">
-                        <i class="fas fa-gas-pump"></i>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="project-tag">Odoo</span>
-                            <span class="project-tag">Distribution</span>
-                            <span class="project-tag">Logistics</span>
-                        </div>
-                        <h3 class="project-title">Gas Distribution Management</h3>
-                        <p class="project-description">Custom Odoo module for gas distribution management with cylinder tracking, delivery scheduling, and route optimization.</p>
-                    </div>
-                </div>
-                <div class="project-card animate-on-scroll">
-                    <div class="project-image" style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);">
-                        <i class="fas fa-file-shield"></i>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="project-tag">Odoo</span>
-                            <span class="project-tag">HR</span>
-                            <span class="project-tag">Compliance</span>
-                        </div>
-                        <h3 class="project-title">CNSS Declarations</h3>
-                        <p class="project-description">Custom Odoo module for managing CNSS (social security) declarations with automated calculations and regulatory compliance.</p>
-                    </div>
-                </div>
-                <div class="project-card animate-on-scroll">
-                    <div class="project-image" style="background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);">
-                        <i class="fas fa-mosque"></i>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="project-tag">Odoo</span>
-                            <span class="project-tag">Government</span>
-                            <span class="project-tag">Platform</span>
-                        </div>
-                        <h3 class="project-title">Tunisian Tej Platform</h3>
-                        <p class="project-description">Custom Odoo module to manage the Tunisian Tej platform with administrative workflows and citizen services management.</p>
-                    </div>
-                </div>
-                <div class="project-card animate-on-scroll">
-                    <div class="project-image" style="background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);">
-                        <i class="fas fa-sync-alt"></i>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="project-tag">Integration</span>
-                            <span class="project-tag">API</span>
-                            <span class="project-tag">ERP</span>
-                        </div>
-                        <h3 class="project-title">Website-ERP Synchronizers</h3>
-                        <p class="project-description">Create real-time synchronizers between websites and ERP systems for seamless data flow, inventory sync, and order management.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- ══════════════════ HERO ══════════════════ -->
+<section class="hero" id="hero">
+    <canvas id="heroParticles"></canvas>
+    <div class="hero-grid"></div>
 
-    <section class="section" id="experience" style="background: rgba(30, 41, 59, 0.5);">
-        <div class="container">
-            <div class="section-header animate-on-scroll">
-                <span class="section-tag">// Experience</span>
-                <h2 class="section-title">Professional Journey</h2>
-                <p class="section-subtitle">Years of experience delivering impactful solutions across diverse industries.</p>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item animate-on-scroll">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-date">2024 - Present</span>
-                        <h3 class="timeline-title">Team Leader & Odoo Developer</h3>
-                        <p class="timeline-company">Jawhara Technologies</p>
-                        <p class="timeline-description">Leading a development team, managing Odoo projects, designing custom modules, and delivering enterprise solutions for clients across various industries.</p>
-                    </div>
-                </div>
-                <div class="timeline-item animate-on-scroll">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-date">2023 - 2024</span>
-                        <h3 class="timeline-title">Full-Stack Developer</h3>
-                        <p class="timeline-company">Simsoft Technologies</p>
-                        <p class="timeline-description">Developed full-stack web applications using modern frameworks, built RESTful APIs, and contributed to enterprise software solutions.</p>
-                    </div>
-                </div>
-                <div class="timeline-item animate-on-scroll">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-date">2017 - 2023</span>
-                        <h3 class="timeline-title">Full-Stack Developer</h3>
-                        <p class="timeline-company">Information Development Services</p>
-                        <p class="timeline-description">Built and maintained web applications, developed custom Odoo modules, and provided technical support for enterprise clients.</p>
-                    </div>
-                </div>
-                <div class="timeline-item animate-on-scroll">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-date">2017 - 2023</span>
-                        <h3 class="timeline-title">Divalto Technical Consultant</h3>
-                        <p class="timeline-company">Information Development Services</p>
-                        <p class="timeline-description">Provided technical consulting for Divalto ERP implementations, system configuration, and user training.</p>
-                    </div>
-                </div>
-                <div class="timeline-item animate-on-scroll">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-date">Before 2017</span>
-                        <h3 class="timeline-title">Internship</h3>
-                        <p class="timeline-company">Information Development Services</p>
-                        <p class="timeline-description">Gained foundational experience in software development and ERP systems during internship program.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="container">
+        <div class="hero-content">
 
-    <section class="section" id="contact">
-        <div class="container">
-            <div class="section-header animate-on-scroll">
-                <span class="section-tag">// Contact</span>
-                <h2 class="section-title">Let's Work Together</h2>
-                <p class="section-subtitle">Have a project in mind? I'd love to hear about it. Let's discuss how I can help bring your ideas to life.</p>
-            </div>
-            <div class="contact-grid">
-                <div class="contact-info animate-on-scroll">
-                    <h3>Get In Touch</h3>
-                    <p>I'm currently available for freelance projects and full-time opportunities. Feel free to reach out!</p>
-                    <div class="contact-item">
+            <div class="hero-left">
+                <div class="hero-eyebrow">
+                    <span class="status-dot"></span>
+                    Open to opportunities
+                </div>
+
+                <h1 class="hero-heading">
+                    <span class="hero-hi">Hi, I'm</span>
+                    <span class="hero-name">Bilel</span>
+                    <span class="hero-name outline">Methnani</span>
+                </h1>
+
+                <div class="hero-typed-wrap">
+                    <span class="typed-prefix">&gt;&nbsp;</span>
+                    <span class="typed-text" id="typedText"></span>
+                    <span class="typed-cursor"></span>
+                </div>
+
+                <p class="hero-description">
+                    Full-Stack Developer &amp; Odoo Technical Consultant crafting robust, scalable enterprise solutions that drive business growth and deliver exceptional user experiences.
+                </p>
+
+                <div class="hero-chips">
+                    <span class="role-chip"><i class="fas fa-cube"></i> Odoo 14–19</span>
+                    <span class="role-chip"><i class="fab fa-python"></i> Python</span>
+                    <span class="role-chip"><i class="fab fa-angular"></i> Angular</span>
+                    <span class="role-chip"><i class="fas fa-mobile-alt"></i> Flutter</span>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Hire Me
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <i class="fas fa-eye"></i> View Work
+                    </a>
+                </div>
+
+                <div class="hero-socials">
+                    <a href="mailto:belboulibilel@gmail.com" class="hero-social-link" aria-label="Email" title="Email">
                         <i class="fas fa-envelope"></i>
-                        <div class="contact-item-content">
+                    </a>
+                    <a href="https://www.linkedin.com/in/bilel-methnani-2046b2170/" class="hero-social-link" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/methnanibilel" class="hero-social-link" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <span class="social-divider"></span>
+                    <span class="hero-location"><i class="fas fa-map-marker-alt"></i> Tunisia</span>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="profile-frame">
+                    <div class="profile-glow"></div>
+                    <div class="profile-ring-outer"></div>
+                    <div class="profile-ring-inner"></div>
+                    <img
+                        src="https://lh3.googleusercontent.com/a/ACg8ocLYLvo-VS0vuwzozGEDod67iOp3UVXqmQe4Y0p0U-bNcX6DSpk=s288-c-no"
+                        alt="Bilel Methnani"
+                        class="profile-img"
+                        loading="eager"
+                    >
+                    <span class="tech-pill odoo"><i class="fas fa-cube"></i> Odoo</span>
+                    <span class="tech-pill angular"><i class="fab fa-angular"></i> Angular</span>
+                    <span class="tech-pill flutter"><i class="fas fa-mobile-alt"></i> Flutter</span>
+                    <span class="tech-pill ecom"><i class="fas fa-shopping-bag"></i> E-Commerce</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="scroll-indicator">
+        <div class="mouse"></div>
+        <span>Scroll</span>
+    </div>
+</section>
+
+<!-- ══════════════════ STATS BAR ══════════════════ -->
+<div class="stats-bar">
+    <div class="container">
+        <div class="stats-row">
+            <div class="stat-item reveal">
+                <span class="stat-val counter" data-target="7">0</span>
+                <span class="stat-plus">+</span>
+                <span class="stat-label">Years of Experience</span>
+            </div>
+            <div class="stat-sep"></div>
+            <div class="stat-item reveal reveal-delay-1">
+                <span class="stat-val counter" data-target="50">0</span>
+                <span class="stat-plus">+</span>
+                <span class="stat-label">Projects Delivered</span>
+            </div>
+            <div class="stat-sep"></div>
+            <div class="stat-item reveal reveal-delay-2">
+                <span class="stat-val counter" data-target="20">0</span>
+                <span class="stat-plus">+</span>
+                <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="stat-sep"></div>
+            <div class="stat-item reveal reveal-delay-3">
+                <span class="stat-val counter" data-target="15">0</span>
+                <span class="stat-plus">+</span>
+                <span class="stat-label">Odoo Modules Built</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ══════════════════ SERVICES ══════════════════ -->
+<section class="section" id="services">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">What I Do</span>
+            <h2 class="section-title">Services I Offer</h2>
+            <p class="section-subtitle">End-to-end development expertise from ERP customization to mobile applications — everything your business needs.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <div class="service-num">01</div>
+                <div class="service-icon-wrap"><i class="fas fa-cube"></i></div>
+                <h3>Odoo Development &amp; ERP</h3>
+                <p>Custom Odoo module development, migrations, and full ERP implementations tailored to your unique business workflows.</p>
+                <ul class="service-feats">
+                    <li><i class="fas fa-check-circle"></i> Custom Module Development</li>
+                    <li><i class="fas fa-check-circle"></i> Odoo 14–19 Full Support</li>
+                    <li><i class="fas fa-check-circle"></i> QWeb Reports & Dashboards</li>
+                    <li><i class="fas fa-check-circle"></i> Version Migration</li>
+                </ul>
+            </div>
+
+            <div class="service-card reveal reveal-delay-1">
+                <div class="service-num">02</div>
+                <div class="service-icon-wrap"><i class="fas fa-laptop-code"></i></div>
+                <h3>Full-Stack Web Development</h3>
+                <p>Scalable web applications built with modern frameworks, RESTful APIs, and robust database architectures.</p>
+                <ul class="service-feats">
+                    <li><i class="fas fa-check-circle"></i> Angular / Vue.js Frontend</li>
+                    <li><i class="fas fa-check-circle"></i> Python / Node.js Backend</li>
+                    <li><i class="fas fa-check-circle"></i> REST & GraphQL APIs</li>
+                    <li><i class="fas fa-check-circle"></i> Database Design & Optimization</li>
+                </ul>
+            </div>
+
+            <div class="service-card reveal reveal-delay-2">
+                <div class="service-num">03</div>
+                <div class="service-icon-wrap"><i class="fas fa-mobile-alt"></i></div>
+                <h3>Mobile App Development</h3>
+                <p>Cross-platform mobile applications with seamless ERP integration, offline support, and push notifications.</p>
+                <ul class="service-feats">
+                    <li><i class="fas fa-check-circle"></i> Flutter (iOS & Android)</li>
+                    <li><i class="fas fa-check-circle"></i> React Native Apps</li>
+                    <li><i class="fas fa-check-circle"></i> Odoo Mobile Integration</li>
+                    <li><i class="fas fa-check-circle"></i> Offline-First Architecture</li>
+                </ul>
+            </div>
+
+            <div class="service-card reveal reveal-delay-3">
+                <div class="service-num">04</div>
+                <div class="service-icon-wrap"><i class="fas fa-sync-alt"></i></div>
+                <h3>ERP Integration &amp; E-Commerce</h3>
+                <p>Seamless integration between your ERP and digital channels — websites, marketplaces, and third-party platforms.</p>
+                <ul class="service-feats">
+                    <li><i class="fas fa-check-circle"></i> Website–Odoo Sync</li>
+                    <li><i class="fas fa-check-circle"></i> WooCommerce / Shopify</li>
+                    <li><i class="fas fa-check-circle"></i> Payment Gateway Setup</li>
+                    <li><i class="fas fa-check-circle"></i> Real-Time Data Pipelines</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════ ABOUT ══════════════════ -->
+<section class="section section-alt" id="about">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">About Me</span>
+            <h2 class="section-title">Turning Vision Into Reality</h2>
+            <p class="section-subtitle">A passionate technologist who bridges the gap between complex business needs and elegant software solutions.</p>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-image-col reveal">
+                <div class="about-img-border"></div>
+                <div class="about-img-wrapper">
+                    <img
+                        src="https://lh3.googleusercontent.com/a/ACg8ocLYLvo-VS0vuwzozGEDod67iOp3UVXqmQe4Y0p0U-bNcX6DSpk=s288-c-no"
+                        alt="Bilel Methnani"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="exp-badge">
+                    <div class="num counter" data-target="7">0</div>
+                    <div class="label">Years Exp.</div>
+                </div>
+
+                <div class="about-img-tags">
+                    <span class="img-tag"><i class="fab fa-python"></i> Python</span>
+                    <span class="img-tag"><i class="fas fa-cube"></i> Odoo</span>
+                    <span class="img-tag"><i class="fab fa-angular"></i> Angular</span>
+                    <span class="img-tag"><i class="fas fa-mobile-alt"></i> Flutter</span>
+                    <span class="img-tag"><i class="fas fa-database"></i> PostgreSQL</span>
+                    <span class="img-tag"><i class="fab fa-docker"></i> Docker</span>
+                </div>
+            </div>
+
+            <div class="about-content reveal reveal-delay-2">
+                <p class="about-intro">I'm a dedicated Full-Stack Developer and Odoo Technical Consultant with over <strong>7 years</strong> of experience building comprehensive enterprise solutions.</p>
+                <p>My focus lies in creating seamless integrations, custom modules, and intuitive interfaces that empower businesses to operate more efficiently. With deep knowledge of Python, JavaScript, and modern frameworks, I specialize in delivering robust solutions that scale with your business needs.</p>
+
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-layer-group"></i></div>
+                        <div class="highlight-body">
+                            <h4>Full-Cycle Development</h4>
+                            <p>From architecture and UI design to deployment and maintenance</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-cogs"></i></div>
+                        <div class="highlight-body">
+                            <h4>Deep Odoo Expertise</h4>
+                            <p>Versions 14 through 19 — custom modules, migrations, integrations</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-users"></i></div>
+                        <div class="highlight-body">
+                            <h4>Team Leadership</h4>
+                            <p>Managing dev teams and delivering projects on time and on budget</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-rocket"></i></div>
+                        <div class="highlight-body">
+                            <h4>Business-First Mindset</h4>
+                            <p>Every line of code serves a clear business objective</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-cta">
+                    <a href="#contact" class="btn btn-primary"><i class="fas fa-handshake"></i> Let's Collaborate</a>
+                    <a href="#projects" class="btn btn-secondary"><i class="fas fa-folder-open"></i> See My Work</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════ SKILLS ══════════════════ -->
+<section class="section" id="skills">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">Skills</span>
+            <h2 class="section-title">Technical Expertise</h2>
+            <p class="section-subtitle">A comprehensive toolkit spanning ERP, full-stack web, mobile, and cloud technologies.</p>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <div class="skill-card-head">
+                    <div class="skill-icon"><i class="fas fa-cube"></i></div>
+                    <div>
+                        <h3>Odoo Development</h3>
+                        <span class="skill-level-label">Expert</span>
+                    </div>
+                </div>
+                <div class="tags">
+                    <span class="tag">Odoo 14–19</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">XML / CSV</span>
+                    <span class="tag">ORM</span>
+                    <span class="tag">QWeb Reports</span>
+                    <span class="tag">Module Dev</span>
+                    <span class="tag">Migration</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal reveal-delay-1">
+                <div class="skill-card-head">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <div>
+                        <h3>Backend Development</h3>
+                        <span class="skill-level-label">Advanced</span>
+                    </div>
+                </div>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Django</span>
+                    <span class="tag">Laravel</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Express</span>
+                    <span class="tag">REST API</span>
+                    <span class="tag">.NET Core</span>
+                    <span class="tag">PostgreSQL</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal reveal-delay-2">
+                <div class="skill-card-head">
+                    <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                    <div>
+                        <h3>Frontend Development</h3>
+                        <span class="skill-level-label">Advanced</span>
+                    </div>
+                </div>
+                <div class="tags">
+                    <span class="tag">Angular</span>
+                    <span class="tag">Vue.js</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">HTML / CSS</span>
+                    <span class="tag">Tailwind</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-card-head">
+                    <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <div>
+                        <h3>Mobile Development</h3>
+                        <span class="skill-level-label">Advanced</span>
+                    </div>
+                </div>
+                <div class="tags">
+                    <span class="tag">Flutter</span>
+                    <span class="tag">React Native</span>
+                    <span class="tag">Dart</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">Firebase</span>
+                    <span class="tag">REST API</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal reveal-delay-1">
+                <div class="skill-card-head">
+                    <div class="skill-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <div>
+                        <h3>E-Commerce &amp; CMS</h3>
+                        <span class="skill-level-label">Proficient</span>
+                    </div>
+                </div>
+                <div class="tags">
+                    <span class="tag">WooCommerce</span>
+                    <span class="tag">Magento</span>
+                    <span class="tag">PrestaShop</span>
+                    <span class="tag">WordPress</span>
+                    <span class="tag">Shopify</span>
+                    <span class="tag">Payments</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal reveal-delay-2">
+                <div class="skill-card-head">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <div>
+                        <h3>Database &amp; DevOps</h3>
+                        <span class="skill-level-label">Advanced</span>
+                    </div>
+                </div>
+                <div class="tags">
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">SQL Server</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">Git</span>
+                    <span class="tag">Linux</span>
+                    <span class="tag">CI/CD</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════ PROJECTS ══════════════════ -->
+<section class="section section-alt" id="projects">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">Portfolio</span>
+            <h2 class="section-title">Featured Work</h2>
+            <p class="section-subtitle">A curated selection of enterprise solutions and web applications built with precision and purpose.</p>
+        </div>
+
+        <!-- Featured Project -->
+        <div class="project-featured reveal">
+            <div class="project-featured-visual" style="background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 60%, #a855f7 100%);">
+                <i class="fas fa-building"></i>
+                <div class="project-featured-overlay">
+                    <span class="proj-action"><i class="fas fa-eye"></i> View Details</span>
+                </div>
+            </div>
+            <div class="project-featured-body">
+                <div class="project-chips">
+                    <span class="project-chip">Odoo</span>
+                    <span class="project-chip">Python</span>
+                    <span class="project-chip">ERP</span>
+                    <span class="project-chip">Featured</span>
+                </div>
+                <h3>Real Estate Management System</h3>
+                <p>Comprehensive Odoo-based platform for property management, tenant tracking, lease lifecycle management, and automated rent collection with full payment gateway integration. Delivered for a major real estate operator managing 500+ properties.</p>
+                <div class="project-featured-metrics">
+                    <div class="metric"><span class="metric-val">500+</span><span class="metric-lbl">Properties</span></div>
+                    <div class="metric"><span class="metric-val">100%</span><span class="metric-lbl">Automated</span></div>
+                    <div class="metric"><span class="metric-val">3×</span><span class="metric-lbl">Faster Ops</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+            <div class="project-card reveal">
+                <div class="project-thumb" style="background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);">
+                    <i class="fas fa-shopping-cart project-thumb-icon"></i>
+                    <div class="project-thumb-overlay">
+                        <span class="proj-action"><i class="fas fa-eye"></i> View Details</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <div class="project-chips">
+                        <span class="project-chip">Angular</span>
+                        <span class="project-chip">Node.js</span>
+                        <span class="project-chip">MongoDB</span>
+                    </div>
+                    <h3>E-Commerce Platform</h3>
+                    <p>Full-featured e-commerce solution with product management, secure payment processing, and real-time inventory tracking.</p>
+                </div>
+            </div>
+
+            <div class="project-card reveal reveal-delay-1">
+                <div class="project-thumb" style="background: linear-gradient(135deg, #ec4899 0%, #f43f5e 100%);">
+                    <i class="fas fa-chart-line project-thumb-icon"></i>
+                    <div class="project-thumb-overlay">
+                        <span class="proj-action"><i class="fas fa-eye"></i> View Details</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <div class="project-chips">
+                        <span class="project-chip">Odoo</span>
+                        <span class="project-chip">Analytics</span>
+                        <span class="project-chip">Dashboard</span>
+                    </div>
+                    <h3>Business Analytics Dashboard</h3>
+                    <p>Custom Odoo module with advanced reporting, KPI tracking, and visual dashboards for data-driven decisions.</p>
+                </div>
+            </div>
+
+            <div class="project-card reveal reveal-delay-2">
+                <div class="project-thumb" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+                    <i class="fas fa-file-invoice project-thumb-icon"></i>
+                    <div class="project-thumb-overlay">
+                        <span class="proj-action"><i class="fas fa-eye"></i> View Details</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <div class="project-chips">
+                        <span class="project-chip">Flutter</span>
+                        <span class="project-chip">Odoo</span>
+                        <span class="project-chip">Mobile</span>
+                    </div>
+                    <h3>DevisManager Mobile App</h3>
+                    <p>Optimize quotes with ease and synchronize with your ERP in real time. Full offline support and push notifications.</p>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-thumb" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">
+                    <i class="fas fa-utensils project-thumb-icon"></i>
+                    <div class="project-thumb-overlay">
+                        <span class="proj-action"><i class="fas fa-eye"></i> View Details</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <div class="project-chips">
+                        <span class="project-chip">Odoo</span>
+                        <span class="project-chip">Manufacturing</span>
+                        <span class="project-chip">Inventory</span>
+                    </div>
+                    <h3>Canning &amp; Freezing Workshop</h3>
+                    <p>Custom Odoo module for production tracking, batch management, and quality control in food processing.</p>
+                </div>
+            </div>
+
+            <div class="project-card reveal reveal-delay-1">
+                <div class="project-thumb" style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);">
+                    <i class="fas fa-gas-pump project-thumb-icon"></i>
+                    <div class="project-thumb-overlay">
+                        <span class="proj-action"><i class="fas fa-eye"></i> View Details</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <div class="project-chips">
+                        <span class="project-chip">Odoo</span>
+                        <span class="project-chip">Distribution</span>
+                        <span class="project-chip">Logistics</span>
+                    </div>
+                    <h3>Gas Distribution Management</h3>
+                    <p>Cylinder tracking, delivery scheduling, and route optimization for a national gas distributor.</p>
+                </div>
+            </div>
+
+            <div class="project-card reveal reveal-delay-2">
+                <div class="project-thumb" style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);">
+                    <i class="fas fa-file-shield project-thumb-icon"></i>
+                    <div class="project-thumb-overlay">
+                        <span class="proj-action"><i class="fas fa-eye"></i> View Details</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <div class="project-chips">
+                        <span class="project-chip">Odoo</span>
+                        <span class="project-chip">HR</span>
+                        <span class="project-chip">Compliance</span>
+                    </div>
+                    <h3>CNSS Declarations</h3>
+                    <p>Automated social security declarations with regulatory compliance calculations and government export formats.</p>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-thumb" style="background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);">
+                    <i class="fas fa-mosque project-thumb-icon"></i>
+                    <div class="project-thumb-overlay">
+                        <span class="proj-action"><i class="fas fa-eye"></i> View Details</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <div class="project-chips">
+                        <span class="project-chip">Odoo</span>
+                        <span class="project-chip">Government</span>
+                        <span class="project-chip">Platform</span>
+                    </div>
+                    <h3>Tunisian Tej Platform</h3>
+                    <p>Administrative workflows and citizen services management for the Tunisian government Tej platform.</p>
+                </div>
+            </div>
+
+            <div class="project-card reveal reveal-delay-1">
+                <div class="project-thumb" style="background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);">
+                    <i class="fas fa-sync-alt project-thumb-icon"></i>
+                    <div class="project-thumb-overlay">
+                        <span class="proj-action"><i class="fas fa-eye"></i> View Details</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <div class="project-chips">
+                        <span class="project-chip">Integration</span>
+                        <span class="project-chip">API</span>
+                        <span class="project-chip">ERP</span>
+                    </div>
+                    <h3>Website–ERP Synchronizers</h3>
+                    <p>Real-time synchronizers between websites and ERP systems for seamless inventory and order management.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════ EXPERIENCE ══════════════════ -->
+<section class="section" id="experience">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">Career</span>
+            <h2 class="section-title">Professional Journey</h2>
+            <p class="section-subtitle">Over 7 years of hands-on experience delivering enterprise software across diverse industries.</p>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-track"></div>
+
+            <div class="timeline-item reveal">
+                <div class="tl-connector"></div>
+                <div class="tl-dot"></div>
+                <div class="tl-card">
+                    <div class="tl-header">
+                        <div class="tl-title-group">
+                            <span class="tl-date">2024 — Present</span>
+                            <h3>Team Leader &amp; Odoo Developer</h3>
+                            <div class="tl-company"><i class="fas fa-building"></i> Jawhara Technologies</div>
+                        </div>
+                        <span class="tl-badge current">Current</span>
+                    </div>
+                    <p>Leading a development team, managing Odoo projects, designing custom modules, and delivering enterprise solutions for clients across various industries including real estate, retail, and manufacturing.</p>
+                    <div class="tl-tech">
+                        <span class="tl-tag">Odoo 16/17</span>
+                        <span class="tl-tag">Python</span>
+                        <span class="tl-tag">Angular</span>
+                        <span class="tl-tag">PostgreSQL</span>
+                        <span class="tl-tag">Docker</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal reveal-delay-1">
+                <div class="tl-connector"></div>
+                <div class="tl-dot"></div>
+                <div class="tl-card">
+                    <div class="tl-header">
+                        <div class="tl-title-group">
+                            <span class="tl-date">2023 — 2024</span>
+                            <h3>Full-Stack Developer</h3>
+                            <div class="tl-company"><i class="fas fa-building"></i> Simsoft Technologies</div>
+                        </div>
+                    </div>
+                    <p>Developed full-stack web applications using modern frameworks, built RESTful APIs, and contributed to enterprise software solutions for regional clients.</p>
+                    <div class="tl-tech">
+                        <span class="tl-tag">Vue.js</span>
+                        <span class="tl-tag">Node.js</span>
+                        <span class="tl-tag">MySQL</span>
+                        <span class="tl-tag">REST API</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal reveal-delay-2">
+                <div class="tl-connector"></div>
+                <div class="tl-dot"></div>
+                <div class="tl-card">
+                    <div class="tl-header">
+                        <div class="tl-title-group">
+                            <span class="tl-date">2017 — 2023</span>
+                            <h3>Full-Stack Developer &amp; Odoo Specialist</h3>
+                            <div class="tl-company"><i class="fas fa-building"></i> Information Development Services</div>
+                        </div>
+                    </div>
+                    <p>Built and maintained web applications, developed custom Odoo modules across multiple versions, and provided technical support for enterprise clients in Tunisia and internationally.</p>
+                    <div class="tl-tech">
+                        <span class="tl-tag">Odoo 10–14</span>
+                        <span class="tl-tag">Python</span>
+                        <span class="tl-tag">Angular</span>
+                        <span class="tl-tag">Flutter</span>
+                        <span class="tl-tag">Laravel</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal reveal-delay-3">
+                <div class="tl-connector"></div>
+                <div class="tl-dot"></div>
+                <div class="tl-card">
+                    <div class="tl-header">
+                        <div class="tl-title-group">
+                            <span class="tl-date">2017 — 2023</span>
+                            <h3>Divalto ERP Technical Consultant</h3>
+                            <div class="tl-company"><i class="fas fa-building"></i> Information Development Services</div>
+                        </div>
+                    </div>
+                    <p>Provided technical consulting for Divalto ERP implementations, system configuration, client training, and ongoing support for enterprise customers.</p>
+                    <div class="tl-tech">
+                        <span class="tl-tag">Divalto ERP</span>
+                        <span class="tl-tag">SQL Server</span>
+                        <span class="tl-tag">Consulting</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal reveal-delay-4">
+                <div class="tl-dot"></div>
+                <div class="tl-card">
+                    <div class="tl-header">
+                        <div class="tl-title-group">
+                            <span class="tl-date">Before 2017</span>
+                            <h3>Software Developer Intern</h3>
+                            <div class="tl-company"><i class="fas fa-building"></i> Information Development Services</div>
+                        </div>
+                    </div>
+                    <p>Gained foundational experience in software development, ERP systems, and enterprise application architecture during internship program.</p>
+                    <div class="tl-tech">
+                        <span class="tl-tag">Java</span>
+                        <span class="tl-tag">PHP</span>
+                        <span class="tl-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════ CONTACT ══════════════════ -->
+<section class="section section-alt" id="contact">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">Contact</span>
+            <h2 class="section-title">Let's Build Together</h2>
+            <p class="section-subtitle">Have a project in mind or want to discuss a collaboration? I'd love to hear from you.</p>
+        </div>
+
+        <div class="contact-layout">
+            <div class="contact-info reveal">
+                <h3>Get In Touch</h3>
+                <p>I'm currently available for freelance projects and full-time opportunities. Whether it's a quick question or a long-term project, feel free to reach out!</p>
+
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-detail">
                             <h4>Email</h4>
                             <p>belboulibilel@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div class="contact-item-content">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-detail">
                             <h4>Phone</h4>
                             <p>+216 53 529 980</p>
                         </div>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div class="contact-item-content">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-detail">
                             <h4>Location</h4>
-                            <p>Tunisia</p>
+                            <p>Tunisia — Available Worldwide</p>
                         </div>
                     </div>
-                    <div class="social-links">
-                        <a href="mailto:belboulibilel@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
-                        <a href="https://www.linkedin.com/in/bilel-methnani-2046b2170/" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://github.com/methnanibilel" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
-                    </div>
                 </div>
-                <div class="contact-form animate-on-scroll">
-                    <form id="contactForm">
+
+                <div class="contact-availability">
+                    <div class="avail-dot"></div>
+                    <span>Currently available for new projects</span>
+                </div>
+
+                <div class="socials">
+                    <a href="mailto:belboulibilel@gmail.com" class="social-btn" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/bilel-methnani-2046b2170/" class="social-btn" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/methnanibilel" class="social-btn" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form-wrap reveal reveal-delay-2">
+                <form id="contactForm" novalidate>
+                    <div class="form-row">
                         <div class="form-group">
                             <label for="name">Your Name</label>
                             <input type="text" id="name" name="name" placeholder="John Doe" required>
@@ -478,42 +805,47 @@
                             <label for="email">Your Email</label>
                             <input type="email" id="email" name="email" placeholder="john@example.com" required>
                         </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Your Message</label>
-                            <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-paper-plane"></i>
-                            Send Message
-                        </button>
-                    </form>
-                </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Project Inquiry — Odoo Module Development" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell me about your project, timeline, and requirements..." required></textarea>
+                    </div>
+                    <div id="formMsg" class="form-msg"></div>
+                    <button type="submit" class="btn btn-primary form-submit">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <button class="scroll-to-top" id="scrollToTop">
-        <i class="fas fa-arrow-up"></i>
-    </button>
-
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <p class="footer-text">Designed & Built by <span class="highlight">Bilel Methnani</span> &copy; 2024</p>
-                <div class="footer-links">
-                    <a href="#about">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
-                </div>
-            </div>
+<!-- ══════════════════ FOOTER ══════════════════ -->
+<footer>
+    <div class="container">
+        <div class="footer-inner">
+            <a href="#" class="footer-brand">BM.</a>
+            <p class="footer-copy">Designed &amp; built by <span>Bilel Methnani</span> &copy; 2025</p>
+            <nav class="footer-nav">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
-    </footer>
+    </div>
+</footer>
 
-    <script src="js/script.js"></script>
+<button class="scroll-top" id="scrollTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="js/script.js"></script>
 </body>
 </html>
